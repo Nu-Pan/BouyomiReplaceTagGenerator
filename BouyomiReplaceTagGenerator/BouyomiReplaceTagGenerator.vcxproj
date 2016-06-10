@@ -94,7 +94,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget)_debug.exe"</Command>
+      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget)_$(ConfigurationName).exe" /R /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -110,7 +110,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PostBuildEvent>
-      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget)_debug.exe"</Command>
+      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget)_$(ConfigurationName).exe" /R /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -130,7 +130,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <PostBuildEvent>
-      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget).exe"</Command>
+      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget)_$(ConfigurationName).exe" /R /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -150,7 +150,7 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <PostBuildEvent>
-      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget).exe"</Command>
+      <Command>echo F | xcopy "$(TargetPath)" "$(ProjectDir)\distribution\$(TargetName)_$(PlatformTarget)_$(ConfigurationName).exe" /R /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

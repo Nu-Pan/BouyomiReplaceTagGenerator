@@ -1,7 +1,15 @@
 # BouyomiReplaceTagGenerator
 
-棒読みちゃんの ReplaceTag.dic を自動生成するCUIアプリケーション  
-  
+棒読みちゃんの ReplaceTag.dic を自動生成するCUIアプリケーション
+
+##入手方法
+
+BouyomiReplaceTagGenerator/distribution/BouyomiReplaceTagGenerator_x86_Release.exe を持って行ってください。
+
+##インストール方法
+
+適当な場所に実行ファイルを配置してください。おすすめは棒読みちゃんと同じ階層です。
+
 ## 使い方
 * このプログラムに「棒読みちゃんの実行ファイルが配置されているフォルダ」をドラッグ＆ドロップしてください。
 * あるいは、このプログラムを棒読みちゃんと同じ階層に配置してダブルクリックしてください。

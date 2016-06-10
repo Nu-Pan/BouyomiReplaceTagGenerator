@@ -4,11 +4,15 @@
 
 ##入手方法
 
-BouyomiReplaceTagGenerator/distribution/BouyomiReplaceTagGenerator_x86_Release.exe を持って行ってください。
+ビルド済み実行ファイルを持って行ってください。
+<https://github.com/Nu-Pan/BouyomiReplaceTagGenerator/raw/master/BouyomiReplaceTagGenerator/distribution/BouyomiReplaceTagGenerator_x86_Release.exe>
 
-##インストール方法
+ダウンロードしたら適当な場所に実行ファイルを配置してください。おすすめは棒読みちゃんと同じ階層です。
 
-適当な場所に実行ファイルを配置してください。おすすめは棒読みちゃんと同じ階層です。
+##動作環境
+
+「Visual Studio 2015 の Visual C++ 再頒布可能パッケージ」を Microsoft から入手してインストールしてください。
+<https://www.microsoft.com/ja-jp/download/details.aspx?id=48145>
 
 ## 使い方
 * このプログラムに「棒読みちゃんの実行ファイルが配置されているフォルダ」をドラッグ＆ドロップしてください。
